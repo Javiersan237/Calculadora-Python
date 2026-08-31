@@ -1,59 +1,39 @@
-# 🧮 Calculadora en Python
+# Calculadora - Equipo SOLI-DO
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Tkinter](https://img.shields.io/badge/Tkinter-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+## Descripción
 
-## 📋 Descripción
+Calculadora interactiva que permite realizar operaciones aritméticas básicas (suma, resta, multiplicación y división) con números enteros de hasta 8 dígitos. El proyecto incluye manejo de errores, interfaz intuitiva y funcionalidades de limpieza (C y AC). 
 
-Calculadora con interfaz gráfica desarrollada en Python utilizando la librería Tkinter. Soporta operaciones básicas, modo oscuro, atajos de teclado y manejo de errores.
+Este proyecto fue tomado del banco "App Ideas" (Tier 1 - Beginner) porque tiene un alcance alcanzable para un estudiante de Ingeniería de Software y permite aplicar todas las fases del proceso de desarrollo.
 
-> **Autor:** Javier Aram Ortega Cortez  
-> **Curso:** 5to Semestre - Ingeniería en Sistemas Computacionales  
-> **Tecnológico Nacional de México - Campus Matehuala**
+## User Stories
 
-### 🖥️ Modo Claro
-![Modo Claro](Photos/Version-Blanco.png)
+1. Como usuario, quiero ver un display que muestre el número actual o el resultado de la última operación.
+2. Como usuario, quiero un panel con botones para los dígitos 0-9 y las operaciones +, -, ×, ÷ y =.
+3. Como usuario, quiero poder ingresar números de hasta 8 dígitos haciendo clic en los botones.
+4. Como usuario, quiero poder realizar operaciones encadenadas con el resultado anterior.
+5. Como usuario, quiero poder limpiar el último número u operación con el botón C.
+6. Como usuario, quiero poder limpiar todo el estado con el botón AC.
+7. Como usuario, quiero ver "ERR" si alguna operación excede los 8 dígitos.
 
-### 🌙 Modo Oscuro
-![Modo Oscuro](Photos/Version-Negro.png)
+## Metodología
 
-## ✨ Características
+**Ágil (Kanban)** --- Elegí esta metodología porque es ligera y permite entregas incrementales. Utilizando un tablero con columnas "To Do", "In Progress" y "Done" puedo visualizar el avance de cada funcionalidad y priorizar las más importantes. Para un proyecto individual como este, Kanban ayuda a mantener el enfoque sin perder de vista el progreso general.
 
-- ✅ Operaciones básicas: suma, resta, multiplicación, división
-- ✅ **Modo oscuro** (Tecla D)
-- ✅ Manejo de errores (división por cero, desbordamiento)
-- ✅ Interfaz gráfica intuitiva
-- ✅ **Atajos de teclado** completos
+## Tecnologías utilizadas
 
-## ⌨️ Atajos de Teclado
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+- Git y GitHub
+- draw.io (diagramación)
 
-| **Tecla** | **Acción** | **Descripción** |
-|:---|:---|:---|
-| `D` | Alternar tema | Cambia entre modo claro y oscuro |
-| `0` - `9` | Ingresar dígitos | Escribe números en la pantalla |
-| `+` | Sumar | Operación de suma |
-| `-` | Restar | Operación de resta |
-| `*` | Multiplicar | Operación de multiplicación (asterisco) |
-| `/` | Dividir | Operación de división (slash) |
-| `Enter` o `=` | Calcular | Ejecuta la operación pendiente |
-| `.` | Punto decimal | Agrega punto decimal al número |
-| `C` | Limpiar entrada | Borra el número actual |
-| `A` | Limpiar todo (AC) | Reinicia completamente la calculadora |
+## Integrantes del equipo
 
-## 🚀 Instalación y Uso
+- Ortega Cortez Javier Aram - @JavierAramOC
 
-### Requisitos
-- Python 3.6 o superior
-- Tkinter (viene incluido con Python)
+## Cómo probar el proyecto
 
-### Pasos para ejecutar
-
-```bash
-# Clona el repositorio
-git clone https://github.com/JavierOrtegaC/calculadora-python.git
-
-# Navega a la carpeta
-cd calculadora-python
-
-# Ejecuta la calculadora
-python calculadora.py
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/JavierAramOC/calculadora-soli-do.git
