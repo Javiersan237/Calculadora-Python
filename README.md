@@ -1,4 +1,4 @@
-# Calculadora - Equipo SOLI-DO
+# Calculadora - Equipo Individual
 
 ## Descripción
 
