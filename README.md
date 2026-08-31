@@ -14,7 +14,6 @@ Calculadora con interfaz gráfica desarrollada en Python utilizando la librería
 ## ✨ Características
 
 - ✅ Operaciones básicas: suma, resta, multiplicación, división
-- ✅ Operaciones avanzadas: potencias, raíces cuadradas, logaritmos
 - ✅ **Modo oscuro** (Ctrl+D / Cmd+D)
 - ✅ Historial de operaciones en pantalla
 - ✅ Manejo de errores (división por cero, desbordamiento)
