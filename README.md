@@ -2,8 +2,6 @@
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Tkinter](https://img.shields.io/badge/Tkinter-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
-![Status](https://img.shields.io/badge/Status-Completado-brightgreen?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ## 📋 Descripción
 
